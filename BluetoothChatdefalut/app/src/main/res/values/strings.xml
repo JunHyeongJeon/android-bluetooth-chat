@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="app_name">SKY WALL</string>
+    <string name="app_name">TEST CHAT</string>
 
     <!--  BluetoothChat -->
     <string name="send">Send</string>

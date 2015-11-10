@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.example.android.BluetoothChat"
+      package="com.example.android.BluetoothChatTest"
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk minSdkVersion="6" />
@@ -25,7 +25,7 @@
                  android:icon="@drawable/app_icon" >
 
 
-        <activity android:name=".BluetoothChat"
+        <activity android:name="com.example.android.BluetoothChatTest.BluetoothChat"
                   android:label="@string/app_name"
                   android:configChanges="orientation|keyboardHidden"
                   android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
@@ -36,7 +36,7 @@
         </activity>
 
 
-        <activity android:name=".DeviceListActivity"
+        <activity android:name="com.example.android.BluetoothChatTest.DeviceListActivity"
                   android:label="@string/select_device"
                   android:theme="@android:style/Theme.Dialog"
                   android:configChanges="orientation|keyboardHidden" />

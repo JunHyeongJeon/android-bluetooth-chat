@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.BluetoothChat;
+package com.example.android.BluetoothChatTest;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -169,60 +169,6 @@ public class BluetoothChat extends Activity {
             }
         });
 
-        mWbutton = (Button) findViewById(R.id.w_button);
-        mWbutton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendMessage("w");
-                sendMessage("w");
-
-            }
-        });
-
-        mAbutton = (Button) findViewById(R.id.a_button);
-        mAbutton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendMessage("a");
-                sendMessage("a");
-
-            }
-        });
-        mSbutton = (Button) findViewById(R.id.s_button);
-        mSbutton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendMessage("s");
-
-            }
-        });
-        mDbutton = (Button) findViewById(R.id.d_button);
-        mDbutton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendMessage("d");
-                sendMessage("d");
-
-            }
-        });
-        mFbutton = (Button) findViewById(R.id.f_button);
-        mFbutton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendMessage("f");
-                sendMessage("f");
-
-            }
-        });
-        mGbutton = (Button) findViewById(R.id.g_button);
-        mGbutton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendMessage("g");
-                sendMessage("g");
-
-            }
-        });
         // Initialize the BluetoothChatService to perform bluetooth connections
         mChatService = new BluetoothChatService(this, mHandler);
 
